@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+
+  
+</head>
+<body>
+   <main>
+    <section>
+      <form action="/" onsubmit="return false;" method="GET">
+      <div class="date-info">
+        <div>
+          <label for="day">DAY</label>
+          <input type="text" id="day" placeholder="DD">
+          <small></small>
+        </div>
+        <div>
+            <label for="month">MONTH</label>
+            <input type="text"  id="month" placeholder="MM">
+            <small></small>
+        </div>
+        <div>
+            <label for="year">YEAR</label>
+            <input type="text" id="year" placeholder="YYYY">
+            <small></small>
+        </div>
+      </div>
+      <div class="submit-section">
+        <hr>
+        <button type="submit" onclick="handleSubmit()"><img src="assets/images/icon-arrow.svg" alt="icon-arrow"></button>
+      </div>
+    </form>
+      <div class="output-section">
+        <h1>
+          <span id="year-output">--</span>
+          Years
+        </h1>
+        <h1>
+          <span id="month-output">--</span>
+          Months
+        </h1>
+        <h1>
+          <span id="day-output">--</span>
+          Days
+        </h1>
+      </div>
+    </section>
+   </main>
+   <script src="script.js">
+
+   </script>
+</body>
+</html>
